@@ -1,0 +1,28 @@
+﻿@model Supplier;
+@{
+    ViewData["Title"] = "Edit";
+}
+
+
+<form method="post">
+  <div class="border p-3 mt-4">
+        <div class="row">
+            <h2 class="text-danger">Create Supplier</h2>
+            <hr>
+            <div class="mb-3 col-6">
+                <label asp-for="Name">Name</label>
+                <input class="form-control" asp-for="Name"/>
+            </div>
+            <div class="mb-3 col-6">
+                <label asp-for="Age">Age</label>
+                <input class="form-control" asp-for="Age"/>
+            </div>
+            <div class="mb-3 col-12 text-end">
+                <button type="submit" class=" btn btn-danger">Submit</button>
+            </div>
+
+
+            </div>
+            </div>
+            </form>
+
