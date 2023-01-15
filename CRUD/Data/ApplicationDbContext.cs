@@ -13,5 +13,6 @@ namespace CRUD.Data
         public DbSet<Student> Students { set; get; }
         public DbSet<Employee> Employees { set; get; }
         public DbSet<Supplier> Suppliers { set; get; }
+        public DbSet<Country> Countries{ get; set; }
     }
 }
